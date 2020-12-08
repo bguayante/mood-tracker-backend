@@ -1,0 +1,17 @@
+[
+    {
+		"moodRating": "1",
+        "eventNote": "I had a bad day.",
+        "date": ""
+    },
+    {
+		"moodRating": "5",
+        "eventNote": "I had an ok day.",
+        "date": ""
+    },
+    {
+		"moodRating": "10",
+        "eventNote": "I had a great day.",
+        "date": ""
+	}
+]
