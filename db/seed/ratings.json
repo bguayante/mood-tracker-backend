@@ -2,16 +2,22 @@
     {
 		"moodRating": "1",
         "eventNote": "I had a bad day.",
-        "date": ""
+        "localDate": "",
+        "date": "",
+        "user": "5fcebc24e6ff105ee1229858"
     },
     {
 		"moodRating": "5",
         "eventNote": "I had an ok day.",
-        "date": ""
+        "localDate": "",
+        "date": "",
+        "user": "5fcebc24e6ff105ee1229858"
     },
     {
 		"moodRating": "10",
         "eventNote": "I had a great day.",
-        "date": ""
+        "localDate": "",
+        "date": "",
+        "user": "5fcebc24e6ff105ee1229859"
 	}
 ]

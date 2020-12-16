@@ -4,11 +4,11 @@
 		"password": "password"
 	},
 	{
-		"userName": "Bob",
+		"username": "Bob",
 		"password": "password"
 	},
 	{
-		"userName": "Dave",
+		"username": "Dave",
 		"password": "password"
     }
 ]
