@@ -12,15 +12,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Controllers go here //
-
 const userController = require('./controllers/userController');
 app.use('/user', userController);
 
 const ratingController = require('./controllers/ratingController');
 app.use('/rating', ratingController);
-
-//
 
 app.set('port', process.env.PORT || 4000);
 

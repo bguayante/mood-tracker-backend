@@ -10,19 +10,21 @@ router.get('/', (req, res) => {
 	});
 });
 
-router.get('/:id', (req, res) => {
-	User.findById(req.params.id).then((user) => {
+router.get('/:userId', (req, res) => {
+	User.findById(req.params.userId).then((user) => {
 		res.json(user);
 	});
 });
 
-
-//Not Working//
-router.get('/:id/ratings', (req, res) => {
-	Rating.find({ user: req.params.id }).then((ratings) => {
-		console.log(req.params.id);
-		console.log(ratings)
+router.get('/:userId/ratings', (req, res) => {
+	Rating.find({ user: req.params.userId }).then((ratings) => {
 		res.json(ratings);
+	});
+});
+
+router.post('/new', (req, res) => {
+	User.create(req.body).then((created) => {
+		res.json(created);
 	});
 });
 
